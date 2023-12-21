@@ -1,21 +1,33 @@
-# python-homework
+# Financial Analysis with Python
 
-[Pybank] - [In this assignment, you will create a Python script that analyzes the financial records of your company.  Inside your starter code, you will find a financial dataset in the budget_data.csv file. This dataset is composed of two columns, Date and Profit/Losses. (Thankfully, your company has rather lax standards for accounting, so the records are simple.)
+**This Python script analyzes a company's financial records from a CSV file and generates a summary of key metrics.**
 
-Your task is to create a Python script that analyzes the records to calculate each of the following:]
+## Features
 
-# Technology Stack
+- Calculates total months, net profit/loss, average change in profit/loss, and greatest increase/decrease in profits.
+- Prints analysis to the terminal.
+- Exports results to a text file.
 
-Programming languages: Python, etc.
-Libraries/Frameworks: Pandas, NumPy, etc.
-Tools: JupyterLab, etc.
-# Features
+## Technologies Used
 
-List key functionalities and capabilities.
-# Installation (Optional)
+- Python 3.x
+- pathlib library for file path handling
+- csv library for reading CSV data
 
-Describe any installation steps, dependencies, or environment setup.
+## Usage
 
-# Usage
-Explain how to run and interact with your project.
-Include command examples, if applicable.
+1. Clone this repository.
+2. Ensure the `budget_data.csv` file is in the same directory as the script.
+3. Run the script from your terminal: `python financial_analysis.py`
+
+## Output
+
+The script will print the financial analysis to the terminal and create a `results.txt` file with the same information.
+
+## Example Output
+Financial Analysis
+Total Months: 86
+Total: $38382578
+Average Change: $-2315.12
+Greatest Increase in Profits: Feb-2012 (1926159)
+Greatest Decrease in Profits:Sep−2013 (-2196167)
